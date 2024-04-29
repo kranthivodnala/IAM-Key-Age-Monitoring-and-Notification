@@ -1,10 +1,10 @@
 # IAM-Key-Age-Monitoring-and-Notification
 Notify IAM keys older than 180 days for all IAM users to Slack using AWS Lambda, Python and Event Bridge
 
-Step 1: Set up an AWS Lambda function using Python.
-a) Login to AWS Account
-b) Navigate to Lambda Service
-c) Click on create function
+Step 1: Set up an AWS Lambda function using Python.<br />
+a) Login to AWS Account<br />
+b) Navigate to Lambda Service<br />
+c) Click on create function<br />
 d) Provide the required details in the fields ex: function name and runtime
 e) Click on create function. This will automatically create a IAM role for the lambda function. Pls leverage the same IAM role and provide IAM read or full access policy
 Step 2: Configure EventBridge to trigger the Lambda function on a schedule.
